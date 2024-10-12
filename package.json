@@ -2,8 +2,9 @@
   "name": "monitorcsgoroll",
   "version": "1.0.0",
   "main": "monitor.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node monitor.js"
   },
   "author": "",
   "license": "ISC",
