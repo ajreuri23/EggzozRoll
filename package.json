@@ -4,7 +4,7 @@
   "main": "monitor.js",
   "type": "module",
   "scripts": {
-    "start": "node monitor.js"
+    "start": "node ./src/monitor.js"
   },
   "author": "",
   "license": "ISC",
