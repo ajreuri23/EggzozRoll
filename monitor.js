@@ -106,6 +106,7 @@ Coins: ${tradeItem.value}`;
 async function main() {
     while (true) {
         try {
+            console.log("About to check new items");
             await checkNewItems();
             await new Promise(resolve => setTimeout(resolve, 60000));  // Wait for 60 seconds before checking again
         } catch (error) {
