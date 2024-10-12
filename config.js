@@ -4,7 +4,6 @@ export const CSGOROLL_API_URL = 'https://api.csgoroll.com/graphql';
 export const KNIFE_FILTERS = {
     "Bayonet | Blue Steel": ["Field-Tested", "Minimal Wear", "Factory New"],
     "Bayonet | Night": ["Field-Tested", "Minimal Wear", "Factory New"],
-    "Bayonet | Crimson Web": ["Field-Tested", "Minimal Wear", "Factory New"],
     "Flip Knife | Crimson Web": ["Field-Tested", "Minimal Wear", "Factory New"],
     "Stiletto Knife | Damascus Steel": ["Field-Tested", "Minimal Wear", "Factory New"],
     "Stiletto Knife | Blue Steel": ["Field-Tested", "Minimal Wear", "Factory New"],
