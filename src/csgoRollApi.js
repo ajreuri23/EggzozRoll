@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { CSGOROLL_API_URL } from './config.js';
+import { CSGOROLL_API_URL } from '../config.js';
 
 export const makeRequest = async (marketName) => {
     const params = {
@@ -8,8 +8,6 @@ export const makeRequest = async (marketName) => {
             first: 50,
             orderBy: "TOTAL_VALUE_DESC",
             status: "LISTED",
-            minTotalValue: 450,
-            maxTotalValue: 500,
             marketName: marketName,
             steamAppName: "CSGO",
             maxMarkupPercent: 12,

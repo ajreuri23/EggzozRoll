@@ -1,5 +1,5 @@
 import TelegramBot from 'node-telegram-bot-api';
-import * as config from './config.js';
+import * as config from '../config.js';
 
 let bot;
 let KNIFE_FILTERS = {...config.KNIFE_FILTERS};
