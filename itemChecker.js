@@ -20,7 +20,7 @@ Market Name: ${fullMarketName}
 Exterior: ${color}
 Value: $${node.totalValue}
 Coins: ${tradeItem.value}`;
-                    await sendTelegramMessage(message, tradeItem.iconUrl);
+                    await sendTelegramMessage(message, tradeItem.itemVariant.iconUrl);
                     sendPoll(knife); // Send poll asynchronously
                 }
             }
